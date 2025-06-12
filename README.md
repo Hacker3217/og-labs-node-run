@@ -183,21 +183,6 @@ tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
 
 ![Screenshot 2025-05-28 155703](https://github.com/user-attachments/assets/ab97078b-2c2a-4328-aace-bc94982ab802)
 
-
-# Stop & Delete the service
-
-```
-sudo systemctl stop zgs
-```
-
-```
-sudo systemctl disable zgs
-sudo rm /etc/systemd/system/zgs.service
-rm -rf $HOME/0g-storage-node
-```
-
-
-
 # Explorer & Useful Webs
 
 * Explorer- (View your txs - Paste Your Address): https://chainscan-galileo.bangcode.id/ OR https://chainscan-galileo.0g.ai/
